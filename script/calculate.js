@@ -22,4 +22,10 @@ function calculateRectangle(){
 
     const rectangleLength = document.getElementById('rectangle-length');
     const length = parseFloat(rectangleLength.value);
+
+    const rectangleArea = width*length;
+    console.log(rectangleArea);
+
+    const rectangleAreaSpan = document.getElementById('rectangle-area');
+    rectangleAreaSpan.innerText = rectangleArea;
 }

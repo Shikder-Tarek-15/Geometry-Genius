@@ -52,7 +52,7 @@
                     <figure><img src="./images/rectangle.png" alt="Shoes" /></figure>
                     <div class="card-body">
                       <h2 class="card-title">Rectangle</h2>
-                      <p class="text-center">Area (A) = w x I</p>
+                      <p class="text-center">Area (A) = w x l</p>
                       <div>
                         <input id="rectangle-width" class="w-24 border border-gray-300  rounded-md p-3 " type="text" placeholder="W">
                         <span>cm</span>
@@ -60,10 +60,10 @@
                         <span>cm</span>
                       </div>
                       <div>
-                        <p>Area is: <span id="rectangle-area"></span>cm<sup>2</sup></p>
+                        <p>Area is: <span id="rectangle-area"></span><span>cm<sup>2</sup></span></p>
                       </div>
                       <div class="card-actions justify-end">
-                        <button class="btn btn-primary w-full">Buy Now</button>
+                        <button onclick="calculateRectangle()" class="btn btn-primary w-full">Buy Now</button>
                       </div>
                     </div>
                   </div>
